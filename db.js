@@ -8,7 +8,7 @@ const connection = mysql.createConnection({
   database: 'server_side_db'
 });
 
-// Conecta a MySQL
+// Conect to MySQL
 connection.connect((err) => {
   if (err) {
     console.error('Error de conexión a MySQL:', err);
