@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Usuario</title>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <form id="userForm" method="POST" action="http://localhost:3000/submit">
+    <label>First Name: <input type="text" name="first_name" required></label><br>
+    <label>Last Name: <input type="text" name="last_name" required></label><br>
+    <label>Email: <input type="email" name="email" required></label><br>
+    <label>Phone Number: <input type="text" name="phone_number" required></label><br>
+    <label>Eircode: <input type="text" name="eircode" required></label><br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
