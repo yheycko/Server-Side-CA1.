@@ -9,7 +9,7 @@ document.getElementById('userForm').addEventListener('submit', function (e) {
   const nameRegex = /^[a-zA-Z0-9]{1,20}$/;
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   const phoneRegex = /^\d{10}$/;
-  const eircodeRegex = /^[0-9][a-zA-Z0-9]{5}$/;
+  const eircodeRegex = /^[0-9][a-zA-Z0-9]{6}$/;
 
   if (!nameRegex.test(firstName) || !nameRegex.test(lastName)) {
     alert("First and Last Name must be alphanumeric and max 20 characters.");

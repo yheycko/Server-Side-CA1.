@@ -22,7 +22,7 @@ function isValid(user) {
   const nameRegex = /^[a-zA-Z0-9]{1,20}$/;
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   const phoneRegex = /^\d{10}$/;
-  const eircodeRegex = /^[0-9][a-zA-Z0-9]{5}$/;
+  const eircodeRegex = /^[0-9][a-zA-Z0-9]{6}$/;
 
   return (
     nameRegex.test(user.first_name) &&
